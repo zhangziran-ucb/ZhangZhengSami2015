@@ -1,0 +1,30 @@
+Outline for repeater placement paper （8 pages  text and figures IEEE）
+List of authors: 
+Ziran Zhang, Zeshi Zheng, Sami, Steve Glaser 
+--Core problem
+•	Lager deployment needs more nodes that are further spaced apart
+•	Conventional trail-and-error method is time and labor consuming and usually result in a lesser optimal result
+•	The performance of the resulting network is hard to predict. 
+--What we propose
+•	An automated algorithm/tool developed from the field data to help determine repeater locations to help shorten the deployment process. 
+•	The output from the algorithm in theory should produce a set of parameters governs by minimum requirements for a network to survive the environment forcing
+--Tools we use: 
+	Metronome system
+•	Properties of the network it formed
+•	How the network is build and what governs the performance of the network from what we have learned from American river 
+--Data we had gathered the help develop the tool described in this paper from ----American river project
+	
+--Method we proposed: 
+	1, use machine-learning techniques to train model(s) to predict field RSSI values of point pairs on DEM factor in canopy information (Done)
+	2, we mask the output with a line of site imposed by topography. (Done)
+	3, we define several constants such as critical radius (phi), minimum number of good parents (n) ,etc. to help quantify deployment strategy. (in discussion)
+	4, the algorithm (in discussion)
+		Open for discussion.
+		But, computing the RSSI map for all the possible point pairs on the map is an intractable problem. Some sort of greedy algorithm has to be employed to make sure the algorithm finishes within reasonable time. 
+		Based on the experience in the field. Some filters to the DEM can be developed to put constrains to the algorithm. For example, put penalty on predicted RSSI on cells that are covered with canopy based on canopy coverage information. 
+		Given the minimum or desired property of the network (num. of parents, no link have less than – 85dbm RSSI etc), panelized by number of repeaters used
+	5, describe of field campaign (Summer 2015 to connect two networks using the described method. The initial and time dependent performance of the deployment is gathered and discussed)
+
+--Result and discussion of the deployments (preliminarily result from summer deployments of two sites in Oct. 2015)
+Paper out December 2015
+
