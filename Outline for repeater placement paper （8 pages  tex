@@ -5,6 +5,7 @@ Ziran Zhang, Zeshi Zheng, Sami, Steve Glaser
 •	Lager deployment needs more nodes that are further spaced apart
 •	Conventional trail-and-error method is time and labor consuming and usually result in a lesser optimal result
 •	The performance of the resulting network is hard to predict. 
+--Lit. review of current approaches.  
 --What we propose
 •	An automated algorithm/tool developed from the field data to help determine repeater locations to help shorten the deployment process. 
 •	The output from the algorithm in theory should produce a set of parameters governs by minimum requirements for a network to survive the environment forcing
